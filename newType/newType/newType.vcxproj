@@ -154,6 +154,8 @@
     <ClCompile Include="DefeatScene.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MapManager.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="PlayScene.cpp" />
     <ClCompile Include="SceneManager.cpp" />
     <ClCompile Include="TitleScene.cpp" />
@@ -162,6 +164,8 @@
   <ItemGroup>
     <ClInclude Include="DefeatScene.h" />
     <ClInclude Include="Input.h" />
+    <ClInclude Include="MapManager.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="PlayScene.h" />
     <ClInclude Include="SceneBase.h" />
     <ClInclude Include="SceneManager.h" />

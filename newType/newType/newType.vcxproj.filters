@@ -13,11 +13,14 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="ソース ファイル\Scene.h">
-      <UniqueIdentifier>{d0a2d189-4fd5-4957-82de-47f0018ba2df}</UniqueIdentifier>
-    </Filter>
     <Filter Include="ソース ファイル\Scene.cpp">
       <UniqueIdentifier>{a1b65430-5708-4eca-b56a-6ed3ec7ab1e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\InputClass">
+      <UniqueIdentifier>{f61491cf-e6d5-47b5-ad72-9ebe3411b79f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene.h">
+      <UniqueIdentifier>{d0a2d189-4fd5-4957-82de-47f0018ba2df}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -40,30 +43,42 @@
       <Filter>ソース ファイル\Scene.cpp</Filter>
     </ClCompile>
     <ClCompile Include="Input.cpp">
+      <Filter>ソース ファイル\InputClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SceneManager.h">
-      <Filter>ソース ファイル\Scene.h</Filter>
+      <Filter>ヘッダー ファイル\Scene.h</Filter>
     </ClInclude>
     <ClInclude Include="SceneBase.h">
-      <Filter>ソース ファイル\Scene.h</Filter>
-    </ClInclude>
-    <ClInclude Include="Input.h">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ヘッダー ファイル\Scene.h</Filter>
     </ClInclude>
     <ClInclude Include="TitleScene.h">
-      <Filter>ソース ファイル\Scene.h</Filter>
+      <Filter>ヘッダー ファイル\Scene.h</Filter>
     </ClInclude>
     <ClInclude Include="PlayScene.h">
-      <Filter>ソース ファイル\Scene.h</Filter>
+      <Filter>ヘッダー ファイル\Scene.h</Filter>
     </ClInclude>
     <ClInclude Include="VictoryScene.h">
-      <Filter>ソース ファイル\Scene.h</Filter>
+      <Filter>ヘッダー ファイル\Scene.h</Filter>
     </ClInclude>
     <ClInclude Include="DefeatScene.h">
-      <Filter>ソース ファイル\Scene.h</Filter>
+      <Filter>ヘッダー ファイル\Scene.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>ソース ファイル\InputClass</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
