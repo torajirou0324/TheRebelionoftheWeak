@@ -2,6 +2,7 @@
 #include "SceneBase.h"
 
 class Player;
+class Enemy;
 
 class PlayScene : public SceneBase
 {
@@ -13,6 +14,7 @@ public:
 	void Draw()override;
 private:
 	Player* m_pPlayer;	// プレイヤーのポインタ
+	Enemy* m_pEnemy;	// エネミーのポインタ
 
 	int m_StatusImg;	// ステータス表示の枠画像ハンドル
 };

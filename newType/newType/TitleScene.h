@@ -15,5 +15,9 @@ public:
 private:
 	Player* m_pPlayer;		// プレイヤークラスのポインタ
 
-	int m_ArrowImg;
+	int m_BackGroundImg;	// フェードアウト用画像ハンドル
+	int m_ArrowImg;			
+	int m_AlphaNum;			// アルファ値
+
+	bool m_AlphaFlag;		// アルファフラグ
 };
