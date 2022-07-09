@@ -151,6 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Collider.cpp" />
     <ClCompile Include="DefeatScene.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Input.cpp" />
@@ -163,8 +164,10 @@
     <ClCompile Include="VictoryScene.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Collider.h" />
     <ClInclude Include="DefeatScene.h" />
     <ClInclude Include="Enemy.h" />
+    <ClInclude Include="GameObject.h" />
     <ClInclude Include="Input.h" />
     <ClInclude Include="MapManager.h" />
     <ClInclude Include="Player.h" />

@@ -22,6 +22,9 @@
     <Filter Include="ヘッダー ファイル\Scene.h">
       <UniqueIdentifier>{d0a2d189-4fd5-4957-82de-47f0018ba2df}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\static">
+      <UniqueIdentifier>{15ebce89-54d3-450e-9cbc-06809ff58956}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -54,6 +57,9 @@
     <ClCompile Include="Enemy.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>ソース ファイル\static</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SceneManager.h">
@@ -85,6 +91,12 @@
     </ClInclude>
     <ClInclude Include="Enemy.h">
       <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>ソース ファイル\static</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
